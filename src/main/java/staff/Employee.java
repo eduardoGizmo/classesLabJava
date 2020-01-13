@@ -20,7 +20,7 @@ public abstract class Employee {
         return this.NINumber;
     }
 
-    public double getsalary() {
+    public double getSalary() {
         return this.salary;
     }
 
