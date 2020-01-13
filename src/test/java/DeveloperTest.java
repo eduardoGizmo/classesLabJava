@@ -33,4 +33,9 @@ public class DeveloperTest {
         developer.raiseSalary(2000.00);
         assertEquals(52000.00, developer.getSalary(), 0.01);
     }
+
+    @Test
+    public void canGetBonus() {
+        assertEquals(500.00, developer.payBonus(), 0.01);
+    }
 }
