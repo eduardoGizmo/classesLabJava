@@ -34,4 +34,10 @@ public abstract class Employee {
         double percentage = this.salary / 100;
         return percentage;
     }
+
+    public void changeName(String name) {
+        if(name != null) {
+            this.name = name;
+        }
+    }
 }
