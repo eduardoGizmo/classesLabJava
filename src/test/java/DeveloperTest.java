@@ -22,4 +22,9 @@ public class DeveloperTest {
     public void canGetNINumber() {
         assertEquals("E23455C", developer.getNINumber());
     }
+
+    @Test
+    public void canGetSalary() {
+        assertEquals(50000.00, developer.getSalary(), 0.01);
+    }
 }
