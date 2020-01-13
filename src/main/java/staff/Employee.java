@@ -16,11 +16,11 @@ public abstract class Employee {
         return this.name;
     }
 
-    public String NINumber() {
+    public String getNINumber() {
         return this.NINumber;
     }
 
-    public double salary() {
+    public double getsalary() {
         return this.salary;
     }
 
