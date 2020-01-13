@@ -32,4 +32,9 @@ public class ManagerTest {
     public void canGetDepName() {
         assertEquals("General", manager.getDepName());
     }
+
+    @Test
+    public void canGetPayBonus() {
+        assertEquals(600.00, manager.payBonus(), 0.01);
+    }
 }
