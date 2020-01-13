@@ -18,5 +18,8 @@ public class DeveloperTest {
         assertEquals("Eduardo", developer.getName());
     }
 
-
+    @Test
+    public void canGetNINumber() {
+        assertEquals("E23455C", developer.getNINumber());
+    }
 }
